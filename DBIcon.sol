@@ -8,11 +8,10 @@ import "../../introspection/SupportsInterfaceWithLookup.sol";
 
 
 /**
- * @title ERC721 Non-Fungible Token Standard basic implementation
- * @dev see https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md
+ * @title ERC721 Non-Fungible Token for DBIcon
  */
  
-contract ERC721BasicToken is SupportsInterfaceWithLookup, ERC721Basic {
+contract DBIcon is SupportsInterfaceWithLookup, ERC721Basic {
 
   using SafeMath for uint256;
   using AddressUtils for address;
